@@ -1,0 +1,236 @@
+@font-face {
+  font-family: Poppins;
+  src: url('../font/Poppins/Poppins-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('../font/Poppins/Poppins-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Switzer;
+  src: url('../font/Switzer/Switzer-Regular.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Switzer;
+  src: url('../font/Switzer/Switzer-Medium.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Switzer;
+  src: url('../font/Switzer/Switzer-Semibold.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Switzer;
+  src: url('../font/Switzer/Switzer-Thin.otf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Switzer;
+  src: url('../font/Switzer/Switzer-Extralight.otf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Switzer;
+  src: url('../font/Switzer/Switzer-Light.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Boska;
+  src: url('../font/Boska/Boska-Light.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: Boska;
+  src: url('../font/Boska/Boska-Regular.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Boska;
+  src: url('../font/Boska/Boska-Medium.otf');
+  font-weight: 500;
+}
+
+/* @font-face {
+  font-family: Boska;
+  src: url('../font/Boska/Boska-Italic.otf');
+  font-weight: 400;
+} */
+
+@font-face {
+  font-family: Boska;
+  src: url('../font/Boska/Boska-Bold.otf');
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Switzer;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+  }
+}
+
+.flex {
+  display: flex;
+}
+.item-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.italic {
+  font-family: Boska;
+  font-style: italic;
+}
+/* ====== navbar ====== */
+
+.nav-wrapper {
+  padding-top: 3rem;
+}
+
+.nav-items {
+  gap: 5rem;
+}
+
+.nav-items li a {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* ======= Header Hero  ======  */
+
+.header-wrapper {
+  background: #1b3936;
+  height: 105vh;
+  width: 100%;
+  margin-top: -100px;
+}
+
+.header-content {
+  background-image: url('../img/Line.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: relative;
+}
+
+.image-content {
+  height: 100%;
+}
+.image-content img {
+  max-width: 485px;
+  border-radius: 50%;
+}
+
+.play-button {
+  background-color: #75ff69;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  outline: none;
+  border: 5px solid #00000080;
+  position: absolute;
+  right: 17%;
+  top: 54%;
+}
+
+.heading-title {
+  color: #fff;
+  font-size: 26rem;
+  font-weight: 400;
+  font-family: Boska;
+  position: absolute;
+  top: 11%;
+  left: 35%;
+  text-transform: capitalize;
+}
+
+.title-m {
+  color: #75ff69;
+  top: 34%;
+  right: 28%;
+  font-family: Boska;
+  position: absolute;
+  font-size: 26rem;
+  font-weight: 400;
+}
+
+.image-content h3 {
+  color: #fff;
+  font-family: Boska;
+  font-size: 3.2rem;
+  bottom: 33%;
+  left: 47%;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: absolute;
+  letter-spacing: 1px;
+}
+
+.title-b {
+  color: #fff;
+  font-family: Boska;
+  font-size: 26rem;
+  font-weight: 400;
+  position: absolute;
+  left: 28%;
+  top: 57%;
+}
+
+.dec-p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Switzer;
+  position: absolute;
+  bottom: 5%;
+  max-width: 28%;
+  text-align: center;
+}
