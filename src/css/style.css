@@ -234,3 +234,265 @@ a {
   max-width: 28%;
   text-align: center;
 }
+
+.header-rasult-container {
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+
+.box-rounded {
+  width: 203px;
+  height: 280px;
+  background-color: #75ff69;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.box-rounded img {
+  position: absolute;
+}
+.box-rounded img:nth-child(1) {
+  left: 20px;
+}
+.box-rounded img:nth-child(2) {
+  top: 20px;
+}
+.box-rounded img:nth-child(3) {
+  right: 20px;
+}
+.box-rounded h4 {
+  font-size: 15rem;
+  font-family: Boska;
+  font-style: italic;
+  font-weight: 400;
+  color: #1b3936;
+  margin-top: 10rem;
+  margin-right: 26px;
+}
+
+.Discription {
+  margin-top: 3rem;
+}
+.Discription p {
+  font-size: 2rem;
+  line-height: 3.1rem;
+  color: #1b3936;
+  font-family: Switzer;
+}
+
+.number-count {
+  flex: 1;
+  padding-left: 33rem;
+}
+
+.left-content {
+  flex: 1;
+}
+
+.number-wrapper {
+  margin-bottom: 5rem;
+}
+
+.number-wrapper p {
+  font-size: 2rem;
+  color: #1b3936;
+  font-family: Switzer;
+}
+.number-wrapper h4 {
+  font-family: Boska;
+  font-size: 10rem;
+  font-weight: 700;
+  line-height: 8rem;
+  color: #1b3936;
+}
+.number-wrapper h4 sub {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.ful-cover-img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+.ful-cover-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-container {
+  max-width: 85%;
+  margin: auto;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-wrapper {
+  background-color: #1b3936;
+  margin-top: -10px;
+  position: relative;
+}
+
+.about-container .image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-image-content {
+  align-items: end;
+}
+.left-image-content img {
+  display: block;
+}
+
+.left-image-content .fs-img {
+  position: relative;
+  width: 401px;
+  height: 342px;
+}
+.left-image-content .fs-img img {
+  width: 100%;
+}
+
+.left-image-content .fs-img::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    86deg,
+    rgba(27, 57, 54, 0.2) 10%,
+    rgba(27, 57, 54, 1) 100%
+  );
+  z-index: 1;
+}
+.left-image-content .scnd-img {
+  width: 401px;
+  height: 526px;
+  margin-right: 15rem;
+}
+
+.left-image-content .scnd-img img {
+  width: 100%;
+  height: 100%;
+}
+.left-image-content .scnd-img {
+  position: relative;
+}
+.left-image-content .scnd-img::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    245deg,
+    rgba(27, 57, 54, 0.2) 10%,
+    rgba(27, 57, 54, 1) 100%
+  );
+  z-index: 1;
+}
+
+.right-img-content .fourth-img {
+  width: 401px;
+  height: 531px;
+  margin-left: 17rem;
+  margin-top: -9rem;
+}
+
+.right-img-content .fourth-img img {
+  width: 100%;
+  height: 100%;
+}
+.right-img-content .fourth-img {
+  position: relative;
+}
+
+.right-img-content .fourth-img::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    15deg,
+    rgba(27, 57, 54, 0.2) 40%,
+    rgba(27, 57, 54, 1) 100%
+  );
+  z-index: 1;
+}
+
+.right-img-content .fivth-img {
+  width: 401px;
+  height: 531px;
+  margin-right: 24rem;
+}
+
+.right-img-content .fivth-img img {
+  width: 100%;
+  height: 100%;
+}
+.right-img-content .fivth-img {
+  position: relative;
+}
+
+.right-img-content .fivth-img::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    15deg,
+    rgba(27, 57, 54, 0.2) 40%,
+    rgba(27, 57, 54, 1) 100%
+  );
+  z-index: 1;
+}
+
+.about-container .content {
+  position: absolute;
+  z-index: 9;
+  top: 18%;
+  left: 20%;
+  max-width: 57%;
+}
+
+.about-container .content h1 {
+  font-size: 6.8rem;
+  font-family: Boska;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+.content h2 {
+  text-align: center;
+  color: #75ff69;
+  font-size: 2rem;
+  text-transform: uppercase;
+
+  font-weight: 400;
+}
+
+.Rooms-colection {
+  margin-top: -2rem;
+  background-color: #fff;
+}
+
+.Rooms-colection img {
+  width: 100%;
+}
