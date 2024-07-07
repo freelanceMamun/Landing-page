@@ -505,3 +505,154 @@ a {
   text-transform: capitalize;
   max-width: 60%;
 }
+
+.room-heading-content {
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr); */
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  max-width: 90%;
+  margin: 15rem auto;
+}
+.rooms-item {
+  position: relative;
+}
+
+.rooms-item h2 {
+  font-size: 3.2rem;
+  font-weight: 300;
+  font-family: Boska;
+  color: #f9f9f9;
+  position: absolute;
+  bottom: 8%;
+  text-align: center;
+  left: 17%;
+  letter-spacing: 1px;
+}
+
+.room-sm-content {
+  position: absolute;
+  bottom: 9%;
+}
+.room-sm-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.room-sm-content h1 {
+  font-size: 6.8rem;
+  font-weight: 400;
+  font-family: Boska;
+  color: #fff;
+}
+.room-sm-content p {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  font-family: Switzer;
+  max-width: 80%;
+}
+
+.Subscribe-wrapper {
+  background-color: #1b3936;
+  padding: 10rem 0;
+}
+
+.from-SubScribe {
+  background-image: url('../img/BG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+.content-title-sub {
+  max-width: 50%;
+  text-align: center;
+}
+
+.content-title-sub h1 {
+  font-size: 6.8rem;
+  font-weight: 400;
+  font-family: Boska;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.content-title-sub h1 span {
+  color: #75ff69;
+  font-family: Boska;
+}
+.content-title-sub p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  font-family: Switzer;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 5rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.from-SubScribe form {
+  width: 45%;
+}
+.from-SubScribe form .input-box {
+  display: flex;
+  width: 100%;
+}
+.from-SubScribe form .input-box input {
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: #fff;
+  padding: 18px 15px;
+  font-family: Switzer;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.from-SubScribe form .input-box button {
+  background-color: #75ff69;
+  outline: none;
+  border: none;
+  font-size: 1.8rem;
+  width: 25rem;
+  font-weight: 400;
+}
+.from-SubScribe form .input-box input::placeholder {
+  color: #b1b1b1;
+  font-weight: 400;
+}
+
+.Wilderness-wrapper {
+  padding: 10rem 0;
+}
+.Wilderness-wrapper .heading-content {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.Wilderness-wrapper .heading-content h2 {
+  font-size: 6.8rem;
+  color: #1b3936;
+  font-family: Boska;
+  font-weight: 300;
+  max-width: 50%;
+}
+.Wilderness-wrapper .heading-content h4 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  font-family: Switzer;
+  color: #1b3936;
+  max-width: 30%;
+  margin-left: auto;
+}
