@@ -489,10 +489,19 @@ a {
 }
 
 .Rooms-colection {
-  margin-top: -2rem;
-  background-color: #fff;
+  background-color: #f9f9f9;
+  padding-top: 10rem;
 }
 
 .Rooms-colection img {
   width: 100%;
+}
+
+.rooms-heading-content h2 {
+  font-size: 6.8rem;
+  color: #1b3936;
+  font-weight: 400;
+  font-family: Boska;
+  text-transform: capitalize;
+  max-width: 60%;
 }
