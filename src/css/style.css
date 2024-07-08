@@ -79,6 +79,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Switzer;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -132,6 +133,8 @@ a {
 
 .nav-wrapper {
   padding-top: 3rem;
+  position: relative;
+  z-index: 10;
 }
 
 .nav-items {
