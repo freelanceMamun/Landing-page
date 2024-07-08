@@ -475,9 +475,14 @@ a {
   font-size: 6.8rem;
   font-family: Boska;
   font-weight: 400;
-  color: #fff;
+  color: #678784;
   text-align: center;
   text-transform: capitalize;
+}
+
+.about-container .content h1 span {
+  font-family: Boska;
+  color: #fff;
 }
 .content h2 {
   text-align: center;
@@ -627,6 +632,7 @@ a {
   font-size: 1.8rem;
   width: 25rem;
   font-weight: 400;
+  cursor: pointer;
 }
 .from-SubScribe form .input-box input::placeholder {
   color: #b1b1b1;
