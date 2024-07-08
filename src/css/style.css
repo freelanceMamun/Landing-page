@@ -516,14 +516,15 @@ a {
 
 .room-heading-content {
   display: flex;
-  /* grid-template-columns: repeat(3, 1fr); */
+
   justify-content: center;
   align-items: center;
   gap: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
   max-width: 90%;
-  margin: 15rem auto;
+  margin: auto;
+  padding: 15rem 0;
 }
 .rooms-item {
   position: relative;
@@ -863,6 +864,9 @@ a {
   font-family: Boska;
   text-transform: capitalize;
   color: #ffffff;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 }
 .room-contact-wapper p {
   font-size: 1.8rem;
