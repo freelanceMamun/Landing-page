@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/plugin/slick.css" />
   </head>
   <body>
     <!-- ====  Header  ==== -->
@@ -220,49 +221,182 @@
         </div>
 
         <div class="Wilderness-slider">
-          <div class="slider-box">
-            <img src="src/img/slide-img1.png" alt="" />
-            <div class="slider-content">
-              <div>
-                <img src="src/img/l.png" alt="" />
+          <div class="slider-wrapper center multiple-items">
+            <div class="slider-box">
+              <img class="slide-img" src="src/img/Image (11).png" alt="" />
+              <div class="slider-content">
+                <div>
+                  <img src="src/img/l.png" alt="" />
+                </div>
+                <h3>Peaceful</h3>
+                <div class="graydient">
+                  ">
+                  <p>
+                    "We had such a wonderful time at The Wilderness Retreat. The
+                    cabin was cozy and co...
+                  </p>
+                </div>
               </div>
-              <h3>Peaceful</h3>
-              <p>
-                "We had such a wonderful time at The Wilderness Retreat. The
-                cabin was cozy and co...
-              </p>
+            </div>
+
+            <div class="slider-box">
+              <img class="slide-img" src="src/img/Image (10).png" alt="" />
+              <div class="slider-content">
+                <div>
+                  <img src="src/img/l.png" alt="" />
+                </div>
+                <h3>Peaceful</h3>
+                <div class="graydient">
+                  ">
+                  <p>
+                    "We had such a wonderful time at The Wilderness Retreat. The
+                    cabin was cozy and co...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-box">
+              <img class="slide-img" src="src/img/Image (10).png" alt="" />
+              <div class="slider-content">
+                <div>
+                  <img src="src/img/l.png" alt="" />
+                </div>
+                <h3>Peaceful</h3>
+                <div class="graydient">
+                  ">
+                  <p>
+                    "We had such a wonderful time at The Wilderness Retreat. The
+                    cabin was cozy and co...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-box">
+              <img class="slide-img" src="src/img/slide-img1.png" alt="" />
+              <div class="slider-content">
+                <div>
+                  <img src="src/img/l.png" alt="" />
+                </div>
+                <h3>Peaceful</h3>
+                <div class="graydient">
+                  ">
+                  <p>
+                    "We had such a wonderful time at The Wilderness Retreat. The
+                    cabin was cozy and co...
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="slider-box">
-            <img src="src/img/slide-img1.png" alt="" />
-            <div class="slider-content">
-              <div>
-                <img src="src/img/l.png" alt="" />
+        </div>
+      </div>
+      <!-- ===== Slider Section ==== -->
+
+      <div class="contact">
+        <div class="container">
+          <div class="talk-wrapper">
+            <div>
+              <h2>it's time to get to know each other!</h2>
+              <p>Grab a cup of coffee and...</p>
+
+              <div class="talk-btn">
+                <a href="#">Let’s talk!</a>
               </div>
-              <h3>Peaceful</h3>
-              <p>
-                "We had such a wonderful time at The Wilderness Retreat. The
-                cabin was cozy and co...
-              </p>
             </div>
-          </div>
-          <div class="slider-box">
-            <img src="src/img/slide-img1.png" alt="" />
-            <div class="slider-content">
-              <div>
-                <img src="src/img/l.png" alt="" />
+            <div>
+              <div class="box-rounded">
+                <img src="src/img/Group 1592.png" alt="icon" />
+                <img src="src/img/Group 1592.png" alt="icon" />
+                <img src="src/img/Group 1592.png" alt="icon" />
+                <h4>G</h4>
               </div>
-              <h3>Peaceful</h3>
-              <p>
-                "We had such a wonderful time at The Wilderness Retreat. The
-                cabin was cozy and co...
-              </p>
             </div>
           </div>
         </div>
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="flex">
+          <div class="about-wrapper-footer">
+            <h3>About</h3>
+            <p>Us in a true way</p>
+            <img src="src/img/Arrow2.png" alt="" />
+          </div>
+          <div class="room-contact-wapper">
+            <div class="Rooms-wrapper">
+              <p>See our</p>
+              <h3>
+                Rooms
+
+                <img src="src/img/Arrow1.png" alt="" />
+              </h3>
+            </div>
+            <div class="Contact-wrapper-f">
+              <p>You can</p>
+              <h3>
+                Contact
+
+                <img src="src/img/Arrow1.png" alt="" />
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li>
+              <a href="#">Change Log</a>
+            </li>
+            <li>
+              <a href="#">Style Guide</a>
+            </li>
+            <li>
+              <a href="#">Licensing</a>
+            </li>
+            <li>
+              <a href="#">Instructions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/plugin/Jquery.js"></script>
+    <script src="src/plugin/slick.min.js"></script>
+
+    <script>
+      $('.center').slick({
+        centerMode: true,
+        centerPadding: '75px',
+        slidesToShow: 3,
+        arrows: true,
+        nextArrow:
+          '<button class="nextArrow"> <img src="src/img/Icon1.png" alt="" />  </button>',
+        prevArrow:
+          '<button class="prevArrow">    <img src="src/img/Icon2.png" alt="" /></button>',
+        responsive: [
+          {
+            breakpoint: 1600,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              slidesToShow: 3,
+              centerPadding: '44px',
+            },
+          },
+
+          {
+            breakpoint: 1200,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              slidesToShow: 2,
+              centerPadding: '40px',
+            },
+          },
+        ],
+      });
+    </script>
   </body>
 </html>
