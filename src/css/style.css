@@ -656,3 +656,32 @@ a {
   max-width: 30%;
   margin-left: auto;
 }
+.slider-box {
+  position: relative;
+}
+.slider-content {
+  background-color: #fff;
+  padding: 1.3rem;
+  position: absolute;
+  left: -10rem;
+  z-index: 1;
+  bottom: 2%;
+}
+.slider-content h3 {
+  font-size: 2rem;
+  font-family: Switzer;
+  color: #1b3936;
+  font-weight: 300;
+}
+.slider-content p {
+  font-size: 1.4rem;
+  font-family: Switzer;
+  color: #1b3936;
+  font-weight: 300;
+}
+
+.Wilderness-slider {
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+}
